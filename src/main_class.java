@@ -10,7 +10,14 @@ public class main_class {
 
         String input_file = "", output_file = "";
         String input_version = "", output_version = "";
-        String name = args[0];
+        String name = "";
+
+
+        try {
+            name = args[0];
+        }catch (Exception e){
+            System.out.println(e);
+        }
 
         for (int i = 0; i < args.length; ++i){
             if (args[i].contains("--")){
