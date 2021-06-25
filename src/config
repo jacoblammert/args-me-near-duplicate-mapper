@@ -1,0 +1,2 @@
+ANSERINI_INDEX_DIR="/mnt/ceph/storage/data-in-progress/data-research/arguana/args/args-near-duplicates-mapper/anserini-indices"
+ARGS_ME_COLLECTION_DIR="/mnt/ceph/storage/corpora/sadasdaasda"
