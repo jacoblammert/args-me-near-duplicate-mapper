@@ -53,7 +53,16 @@ public class main_class {
         System.out.println("Input version: " + input_version);
         System.out.println("Output version: " + output_version);
 
+        //Linux run shell skript
 
+        ProcessBuilder processBuilder = new ProcessBuilder();
+
+        // -- Linux --
+
+        // Run a shell command
+        String folder = "";
+        String name_skript = "";
+        processBuilder.command(name, "-c", "ls " + folder);
 
     }
 
