@@ -7,5 +7,6 @@ git clone git@webis.uni-weimar.de:code-research/web-search/query-expansion-with-
 
 cd query-expansion-with-language-models/subprojects/args-me-integration-to-anserini/anserini-integration/
 sudo mount /mnt/ceph/tira
+sudo mount /mnt/ceph/storage
 mvn clean install
 ```
